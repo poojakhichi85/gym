@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar-brand{
+    font-size: 2rem;
+    color: black;
+    font-family: "Playwrite DK Loopet", cursive;
+   font-weight: 900;
+}
+.navbar-brand:hover{
+color:rgb(9, 121, 74) ;
+}
+.nav-link{
+  margin-left: 10px;
+  margin-right: 10px ;
+  color:black;
+  font-family: "Rubik", sans-serif;
+  text-transform: uppercase;
+}
+.nav-link{
+    color: black;
+}
+.search{
+    height: 40px;
+    width: 80%;
+    border-radius:60px ;
+    outline: none;
+    margin-right: -35px;
+    border: 2px solid rgb(9, 121, 74) ;
+}
+.btn0{
+    height: 40px;
+    width: 40%;
+    border: none;
+    outline: none;
+    background:rgb(9, 121, 74) ; 
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+}
+.btn0:hover{
+    color: rgb(9, 121, 74) ;
+}
+ a{
+    font-size: 1.3rem;
+}
+.main{
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)) ,url("image.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-position: 50% 50%;
+}
+.main h1{
+    font-size: 3.3rem;
+    font-weight: 500;
+    text-align: left;
+    color:rgb(9, 121, 74) ;
+    justify-content: center;
+    margin-top: 28%;
+}
+.btn1{
+    border: none;
+    border-radius: 60px;
+    font-size: large;
+    outline: none;
+    height: 35px;
+    width: 20%;
+    background-color:white ; 
+    font-weight: 500;
+    color: rgb(9, 121, 74);
+}
